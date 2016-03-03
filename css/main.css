@@ -1,0 +1,50 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	border: red 2px solid;	
+}
+body input:required:valid,
+body textarea:required:valid {
+	border: green 2px solid;
+	
+}
+body {
+	font-family: "Trebuchet-MS-Bold__";
+	font-size: 100%/1.5em;
+	color: #646464;
+	background: url("../img/fon.png");
+}
+.container {
+	background-color: #fff;
+}
+ul, input {
+	margin: 0;
+	padding: 0;
+}
+li {
+	margin: 0;
+	padding: 0;
+}
+h2 {
+	margin-bottom: 0px;
+}
+
+p {
+	margin: 0;
+}

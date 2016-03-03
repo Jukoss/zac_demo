@@ -1,0 +1,169 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+		
+	}	
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.search {
+		margin: 0.875em 1.313em 1em 0;
+
+	}
+	.opt-text {
+		
+		margin-right: 1em;
+
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+	.item-menu {
+		display: block;
+	}
+	.logocam {
+	
+		padding: 0 0 0 2.35em;
+	}
+
+	.header-number {
+		margin: 0 0 0 1.6em;
+    	width: 344px;
+	}
+
+	.heading__img {
+		display: block;
+		float: left;
+	}
+	.heading__paragraph {
+		display: block;
+	}
+
+	.options-item {
+		
+		float: none;
+
+	}
+
+	.item-bc {
+		list-style-type: none;
+	}
+	
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.header-number {
+		margin: 0 0 0 1.6em;
+  		width: 214px;
+	}
+	.logocam__text {
+		display: none;
+	}
+	.arrow-large {
+				
+	}
+
+	.sub-nav {
+		display: none;
+	}
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+	.options-item {
+		margin-left: 1.7em;
+		
+	}
+
+	.product-img {
+	
+		padding: 0 1em 0 1em;
+		 
+	}
+	
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+	.sidebar {
+		margin: 0 0 0 0.750em;
+		
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	li {
+		float: left;
+		display: inline-block;
+	}
+	.header-number {
+		
+		width: 100%;
+	}
+	.logocam {
+	
+		padding: 2.4em 0 0 2.35em;
+	}
+
+	.item-menu_select_true {
+		margin-right: 2.7em;
+	}
+	
+	
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.options-item {
+		margin-left: 0.1em;
+	}
+
+	.product-img {
+	
+		padding: 0 0.5em 0 0.5em;
+		 
+	}
+	.search {
+		margin: 0.875em 1.313em 0 0;
+
+	}
+
+	.footer .container {
+		padding: 0;
+	}
+
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.options-item {
+		margin-left: 1.7em;
+	}
+	.product-img {
+		
+			padding: 0 1em 0 1em;
+			 
+		}
+	
+	.opt-text {
+		
+		margin-right: 1em;
+
+	}
+}

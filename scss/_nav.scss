@@ -1,0 +1,129 @@
+
+/*----------------------nav---------------------------*/
+
+
+.main-menu {
+	width: 100%;
+	text-align: left;
+}
+.menu-fon{
+	background-color: #003952;
+	min-height: 60px;
+}
+
+.item-menu {
+	background-color: #003952;
+	font-family: "PragmaticaC";
+	font-size: 1em;
+	padding: 1.35em 1.3em 1.5em 1.3em;
+
+	&__el {
+		
+		color: #fff;
+		padding: 0 0.4em 0.3em 0.4em;
+
+
+
+		&_select_true {
+			padding: 0.2em 2.55em 0 2.55em;
+			color: #555555;
+		}
+	}
+
+	&__el:hover {
+		border-bottom: 1px solid #fff;
+		-webkit-transition: 0.1s;
+		-o-transition: 0.1s;
+		-moz-transition: 0.1s;
+	}
+
+	&_select_true {
+		background-color: #fff;
+		
+	}
+
+}
+
+.search {
+	background-color: #fff;
+	border-radius: 2em;
+	float: right;
+	padding: 0.55em 1.3em 0.55em 1.3em;
+	
+	display: block;
+	width: 90%;
+
+	&__button {
+		background-color: #fff;
+		border: none;
+		background: url("../img/search.png") center top no-repeat;
+		min-width: 18px;
+	}
+
+	&__input {
+		border: none;
+		font-family: "PragmaticaC";
+		color: #b4b4b4;
+		min-width: 18px;
+		margin-left: 0.8em;
+		width: 70%;
+
+	}
+
+}
+
+.breadcrumbs {
+	min-height: 50px;
+	margin-left: 1.563em;
+}
+
+.item-bc {
+	font-family: "PragmaticaC";
+	font-size: 0.9em;
+	margin: 1.3em 0 0 0;
+	
+	&__el {
+		color: #333333;
+		
+		&_icon_home {
+			padding-right: 1em;
+			background-color: rgba(0, 0, 0, 0);
+		}
+		
+
+		&_icon_arrow {
+			margin:  0.1em 0.563em 0.5em 1.375em;
+		}
+
+		&_icon_arrow:hover {
+			border-bottom: 1px solid #000;
+		}
+
+		&_select_true {
+			color: #aaaaaa;
+		}
+
+		&_select_true:hover {
+			border-bottom: 1px solid #aaaaaa;
+		}
+	}
+	
+	&_icon_arrow {
+		background: url("../img/arrow.png") left top no-repeat;
+	}
+	
+}
+.select {
+	background-color: #eeeeee;
+	float: right;
+	font-family: "PragmaticaLightC";
+	font-size: 0.9em;
+	color: #00687a;
+	text-align: center;
+	padding: 0.2em 0.4em 0.2em 0.2em;
+	margin: 0.8em 1.4em 0 0;
+
+	&__img {
+		margin: 0 0.3em 0 0.3em;
+	}
+}
